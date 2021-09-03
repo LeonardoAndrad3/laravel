@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function(){
+Route::get('/carros', function(){
     return view('carros');
 });
-// Route::get('/', function(){
-//     return view('apiCaches');
-// });
+Route::get('/apicaches', function(){
+    return view('apiCaches');
+});
