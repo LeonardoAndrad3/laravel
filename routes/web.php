@@ -19,6 +19,6 @@ Route::get('/', function () {
 Route::get('/', function(){
     return view('carros');
 });
-Route::get('/', function(){
-    return view('apiCaches');
-});
+// Route::get('/', function(){
+//     return view('apiCaches');
+// });

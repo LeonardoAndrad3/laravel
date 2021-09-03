@@ -11,6 +11,8 @@
     <div class="content">
     <h1>Api with caches!</h1>
         <section>
+            <a href="./carros.blade.php"><button></button></a>
+            <a href="./welcome.blade.php"><button></button></a>
         </section>
     </div>
 </body>
