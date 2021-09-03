@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/carros.js"></script>
     <title>CarrosApi</title>
 </head>
 <body>
@@ -13,6 +14,7 @@
         </header>
             <section>
                 <main>
+
                 </main>
             </section>
     </div>
