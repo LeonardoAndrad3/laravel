@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/cad', function(){
+    $u = new User;
+    $u->name = 'joão'; 
+    $dta = date("Y-m-d-h-i-sa");
+    $u->email = 'aleatorio@gmail.com'.$dta;
+    $u->password = '123456';
+    $u->save();
+    return User::all();
 });
